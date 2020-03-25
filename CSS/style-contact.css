@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header img {
+    width: 60px;
+    margin-top: 5px;
+}
+
+#titulo-principal {
+    font-size: 16px;
+    position: absolute;
+    margin-top: 15px;
+
+}
+
+header * {
+    
+    display: inline-block;
+
+    
+}
+
+#cabecalho-contact {
+    
+    position: fixed; top: 0; width: 100%; height: 50px;
+    border-bottom: 0px solid #606060; 
+    box-shadow: 0px 0px 8px 0px #676565;
+    background-color: white;
+
+}
+
+
+header nav {
+    float: right;
+    margin-top: 13px;
+    margin-right: -50px;
+}
+
+header nav ul li {
+    width: 170px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+  
+}
+
+#contato {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+form {
+    text-align: center;
+    
+}
+
+.formulario {   
+    background-color: rgba(255, 255, 255, 0.9);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 470px;
+    width: 540px;
+    margin-left: 410px;
+    margin-top: 110px;
+    border-radius: 10px;
+    border: 1px solid #5f4a90;
+
+}
+
+form h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 33px;
+    font-size: 33px;
+}
+
+
+.input {
+    border: 1px solid #5f4a90;
+    border-radius: 20px;
+    width: 460px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.07);
+    text-align: center;
+}
+
+form textarea {
+    border: 1px solid #5f4a90;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.07);
+    width: 460px;
+    height: 120px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.label {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#checkbox {
+    margin-top: 15px;
+}
+
+#submit {
+    border-radius: 40px;
+    border: 0;
+    background-color: #5f4a90;
+    width: 190px;
+    height: 45px;
+    color: white;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 46px;
+}
+
+#submit:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    border: 0;
+    background-color: #5f4a90;
+    margin-top: 0px;
+}
+
+footer h4 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 25px;
+    font-family: 'arial';
+}
